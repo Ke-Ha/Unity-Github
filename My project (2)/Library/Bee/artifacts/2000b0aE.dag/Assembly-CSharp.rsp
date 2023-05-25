@@ -354,6 +354,12 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+<<<<<<< Updated upstream
+=======
+"Assets/script/EnemyCollisionCheck.cs"
+"Assets/script/Enemy_Zako1.cs"
+"Assets/script/FadeImage.cs"
+>>>>>>> Stashed changes
 "Assets/script/GroundCheck.cs"
 "Assets/script/player.cs"
 "Assets/script/Title.cs"

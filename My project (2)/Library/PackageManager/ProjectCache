@@ -5,7 +5,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638204267171425513
+=======
+      ticks: 638205733062365573
+>>>>>>> Stashed changes
     m_Hash: 2728415718
   m_LockFileStatus:
     m_FilePath: C:/Users/owner2/Documents/GitHub/Unity-Github/My project (2)/Packages/packages-lock.json
@@ -13,7 +17,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638204267171495518
+=======
+      ticks: 638205733062365573
+>>>>>>> Stashed changes
     m_Hash: 238193174
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
