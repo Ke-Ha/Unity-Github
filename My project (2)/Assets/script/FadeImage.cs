@@ -120,7 +120,7 @@ public class FadeImage : MonoBehaviour
         }
         else
         {
-            IsFadeOutComplete();
+            FadeOutComplete();
         }
         timer += Time.deltaTime;
     }
@@ -134,5 +134,15 @@ public class FadeImage : MonoBehaviour
         timer = 0.0f;
         fadeIn = false;
         compFadeIn = true;
+    }
+
+    private void FadeOutComplete()
+    {
+        img.color = new Color(1, 1, 1, 1);
+        img.fillAmount = 1;
+        img.raycastTarget = false;
+        timer = 0.0f;
+        fadeOut = false;
+        compFadeOut = true;
     }
 }
