@@ -7,7 +7,15 @@
     },
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      "LastWriteTime": "2023-05-24T00:55:19.6112751Z"
+=======
+      "LastWriteTime": "2023-05-25T01:10:31.0064107Z"
+>>>>>>> Stashed changes
+=======
       "LastWriteTime": "2023-05-24T02:04:51.0945797Z"
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -15,18 +23,43 @@
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      "LastWriteTime": "2023-05-24T00:55:19.3556465Z"
+    },
+    {
+      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2023-05-24T00:55:19.3204241Z"
+=======
+      "LastWriteTime": "2023-05-25T01:10:31.1426342Z"
+    },
+    {
+      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2023-05-25T01:10:30.6795405Z"
+>>>>>>> Stashed changes
+=======
       "LastWriteTime": "2023-05-24T02:04:51.3142959Z"
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2023-05-24T02:04:51.5011303Z"
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
       "LastWriteTime": "2023-05-02T02:21:08Z"
     },
     {
+<<<<<<< HEAD
+      "FullName": "PsdPlugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< Updated upstream
+      "LastWriteTime": "2023-05-24T00:55:19.6235772Z"
+    },
+    {
+      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+=======
       "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       "LastWriteTime": "2023-05-02T02:21:08Z"
     },
     {
@@ -35,7 +68,18 @@
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
+      "LastWriteTime": "2023-05-24T00:55:19.7447944Z"
+=======
+      "LastWriteTime": "2023-05-25T01:10:31.023341Z"
+    },
+    {
+      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2023-05-25T01:10:30.5874462Z"
+>>>>>>> Stashed changes
+=======
       "LastWriteTime": "2023-05-24T02:04:51.3848614Z"
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -43,11 +87,22 @@
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      "LastWriteTime": "2023-05-24T00:55:19.4968943Z"
+=======
+      "LastWriteTime": "2023-05-25T01:10:31.1815177Z"
+=======
       "LastWriteTime": "2023-05-24T02:04:51.7139947Z"
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2023-05-02T02:21:08Z"
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+=======
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -55,7 +110,12 @@
     },
     {
       "FullName": "Unity.2D.Common.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      "LastWriteTime": "2023-05-24T00:55:19.5601299Z"
+=======
       "LastWriteTime": "2023-05-24T02:04:51.7977198Z"
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     },
     {
       "FullName": "Unity.2D.Psdimporter.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -63,7 +123,22 @@
     },
     {
       "FullName": "Unity.2D.Animation.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< HEAD
+      "LastWriteTime": "2023-05-24T00:55:19.6763484Z"
+=======
+      "LastWriteTime": "2023-05-25T01:10:30.7315553Z"
+    },
+    {
+      "FullName": "Unity.2D.Psdimporter.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2023-05-25T01:10:30.6283538Z"
+    },
+    {
+      "FullName": "Unity.2D.Animation.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2023-05-25T01:10:30.9869728Z"
+>>>>>>> Stashed changes
+=======
       "LastWriteTime": "2023-05-24T02:04:51.5847839Z"
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     }
   ],
   "Functions": [
@@ -89,9 +164,18 @@
       "LinkName": "B33AFCD7D8FB6AEB",
       "AssemblyDependencyIndices": [
         0,
+<<<<<<< HEAD
+        6,
+<<<<<<< Updated upstream
+        7,
+=======
+>>>>>>> Stashed changes
+        2
+=======
         7,
         2,
         6
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       ]
     },
     {
@@ -115,7 +199,7 @@
       "ModuleHash": "954eb7474395c3fe18cea671707abdb9",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
-        8,
+        7,
         5,
         2
       ]
@@ -126,7 +210,7 @@
       "ModuleHash": "7c50855d5e529adfaf667b103fe8183c",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
-        8,
+        7,
         5,
         2
       ]
@@ -139,13 +223,21 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        9,
+        8,
         2,
         4,
         5,
+<<<<<<< Updated upstream
         8,
+<<<<<<< HEAD
+=======
+        7,
+>>>>>>> Stashed changes
+        3
+=======
         3,
         6
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       ]
     },
     {
@@ -155,6 +247,7 @@
       "LinkName": "104599FDEEB36FAE",
       "AssemblyDependencyIndices": [
         0,
+        9,
         10,
         11,
         5,
@@ -224,10 +317,18 @@
         2,
         0,
         4,
-        8,
+        7,
         5,
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+        9
+=======
+        8
+>>>>>>> Stashed changes
+=======
         9,
         6
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       ]
     },
     {
@@ -240,9 +341,18 @@
         5,
         2,
         0,
+<<<<<<< Updated upstream
         8,
+<<<<<<< HEAD
+        9
+=======
+        7,
+        8
+>>>>>>> Stashed changes
+=======
         9,
         6
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       ]
     },
     {
@@ -254,10 +364,10 @@
         1,
         2,
         4,
-        8,
+        7,
         5,
         0,
-        9
+        8
       ]
     },
     {
@@ -271,10 +381,18 @@
         0,
         4,
         5,
-        8,
+        7,
         3,
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+        9
+=======
+        8
+>>>>>>> Stashed changes
+=======
         9,
         6
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       ]
     },
     {
@@ -287,11 +405,19 @@
         2,
         0,
         4,
-        8,
+        7,
         5,
         3,
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+        9
+=======
+        8
+>>>>>>> Stashed changes
+=======
         9,
         6
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       ]
     },
     {
@@ -304,10 +430,18 @@
         2,
         4,
         5,
-        8,
+        7,
         0,
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+        9
+=======
+        8
+>>>>>>> Stashed changes
+=======
         9,
         6
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       ]
     },
     {
@@ -320,10 +454,10 @@
         2,
         4,
         5,
-        8,
+        7,
         3,
         0,
-        9
+        8
       ]
     },
     {
@@ -334,12 +468,12 @@
       "AssemblyDependencyIndices": [
         1,
         2,
-        8,
+        7,
         5,
         4,
         3,
         0,
-        9
+        8
       ]
     },
     {
@@ -353,10 +487,18 @@
         4,
         0,
         5,
-        8,
+        7,
         3,
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+        9
+=======
+        8
+>>>>>>> Stashed changes
+=======
         9,
         6
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
       ]
     }
   ]

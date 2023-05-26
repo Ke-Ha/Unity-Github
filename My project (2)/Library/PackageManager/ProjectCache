@@ -6,7 +6,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      ticks: 638204267171425513
+=======
+      ticks: 638205733062365573
+>>>>>>> Stashed changes
+=======
       ticks: 638204897249380915
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     m_Hash: 2728415718
   m_LockFileStatus:
     m_FilePath: C:/Users/owner2/Documents/GitHub/Unity-Github2/Unity-Github/My project
@@ -15,7 +23,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      ticks: 638204267171495518
+=======
+      ticks: 638205733062365573
+>>>>>>> Stashed changes
+=======
       ticks: 638204897249390928
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
     m_Hash: 238193174
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

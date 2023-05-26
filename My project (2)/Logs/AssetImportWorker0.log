@@ -15,9 +15,19 @@ C:/Users/owner2/Documents/GitHub/Unity-Github2/Unity-Github/My project (2)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+49561
+=======
+63885
+>>>>>>> Stashed changes
+Successfully changed project path to: C:/Users/owner2/Documents/GitHub/Unity-Github/My project (2)
+C:/Users/owner2/Documents/GitHub/Unity-Github/My project (2)
+=======
 50430
 Successfully changed project path to: C:/Users/owner2/Documents/GitHub/Unity-Github2/Unity-Github/My project (2)
 C:/Users/owner2/Documents/GitHub/Unity-Github2/Unity-Github/My project (2)
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +57,27 @@ C:/Users/owner2/Documents/GitHub/Unity-Github2/Unity-Github/My project (2)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+Player connection [6508] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 1388438925 [EditorId] 1388438925 [Version] 1048832 [Id] WindowsEditor(7,pc553) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+=======
 Player connection [15364] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 1306832892 [EditorId] 1306832892 [Version] 1048832 [Id] WindowsEditor(7,pc553) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 
 Player connection [15364] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 1306832892 [EditorId] 1306832892 [Version] 1048832 [Id] WindowsEditor(7,pc553) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 526.86 ms, found 4 plugins.
+=======
+Player connection [20372] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 1477973430 [EditorId] 1477973430 [Version] 1048832 [Id] WindowsEditor(7,pc553) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20372] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 1477973430 [EditorId] 1477973430 [Version] 1048832 [Id] WindowsEditor(7,pc553) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 163.12 ms, found 4 plugins.
+>>>>>>> Stashed changes
+=======
 Refreshing native plugins compatible for Editor in 222.66 ms, found 4 plugins.
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,12 +93,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+>>>>>>> Stashed changes
+=======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+Registered in 0.029525 seconds.
+=======
 Registered in 0.092394 seconds.
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 398.85 ms, found 4 plugins.
@@ -80,15 +119,39 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.256 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
+	ReloadAssembly (1385ms)
+		BeginReloadAssembly (209ms)
+=======
+Registered in 0.026613 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 205.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.339 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (195ms)
+>>>>>>> Stashed changes
+=======
 	ReloadAssembly (2259ms)
 		BeginReloadAssembly (359ms)
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (919ms)
+			LoadAssemblies (199ms)
+=======
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (1316ms)
 			LoadAssemblies (351ms)
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
@@ -99,15 +162,42 @@ Domain Reload Profiling:
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (399ms)
 				BeforeProcessingInitializeOnLoad (2ms)
+<<<<<<< HEAD
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (143ms)
+=======
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (576ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (206ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+>>>>>>> Stashed changes
+=======
 				ProcessInitializeOnLoadAttributes (247ms)
 				ProcessInitializeOnLoadMethodAttributes (302ms)
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+Registered in 0.024625 seconds.
+=======
 Registered in 0.026153 seconds.
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\owner2\Documents\GitHub\Unity-Github2\Unity-Github\My project (2)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\owner2\Documents\GitHub\Unity-Github2\Unity-Github\My project (2)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -3567,6 +3657,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
+  Time since last request: 12.234797 seconds.
+  path: Assets/Texture/player/player_stand.png
+  artifactKey: Guid(19d5900831caf324d8cce464b4cdf66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture/player/player_stand.png using Guid(19d5900831caf324d8cce464b4cdf66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60b592b31f02959aa721cdb907b8d0a') in 0.087560 seconds 
+=======
+Registered in 0.022883 seconds.
+>>>>>>> Stashed changes
+=======
   Time since last request: 1267.970281 seconds.
   path: Assets/Animation/player_anime
   artifactKey: Guid(4a5a63c5887c1f94683c8725c9c63cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -3909,3 +4008,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> ab63c79990d5270d85928a9053542025f4af5e5d
