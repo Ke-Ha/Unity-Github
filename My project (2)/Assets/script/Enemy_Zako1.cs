@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy_Zako1 : MonoBehaviour
 {
     #region//インスペクターで設定する
+    [Header("加算スコア")] public int myScore;
     [Header("移動速度")] public float speed;
     [Header("重力")] public float gravity;
     [Header("画面外でも行動する")] public bool nonVisibleAct;
@@ -63,6 +64,10 @@ public class Enemy_Zako1 : MonoBehaviour
         {
             if (!isDown)
             {
+                if (GManager.instance != null)
+                {
+                    GManager.instance.score += myScore;
+                }
                 anim.Play("enemy_zako1_down");
                 rb.velocity = new Vector2(0, -gravity);
                 isDown = true;
