@@ -10,6 +10,8 @@ public class player : MonoBehaviour
     [Header("ジャンプ速度")] public float jumpSpeed;
     [Header("ジャンプする高さ")] public float jumpHeight;
     [Header("ジャンプ制限時間")] public float jumpLimitTime;
+    [Header("踏みつけ判定の高さの割合")] public float stepOnRate;
+
 
     [Header("接地判定")] public GroundCheck ground;
     [Header("頭をぶつけた判定")] public GroundCheck head;
@@ -21,16 +23,19 @@ public class player : MonoBehaviour
     #region//private変数
     private Rigidbody2D rb = null;
     private Animator anim = null;
+    private CapsuleCollider2D capcol = null;
 
     private bool isGround = false;
     private bool isHead = false;
     private bool isJump = false;
     private bool isWalk = false;
     private bool isDown = false;
+    private bool isOtherJump = false;
 
     private string enemyTag = "Enemy";
 
     private float jumpPos = 0.0f;
+    private float otherJumpHeight = 0.0f;
     private float dashTime,jumpTime;
     private float beforeKey;
     #endregion
@@ -39,6 +44,7 @@ public class player : MonoBehaviour
     {
         anim=GetComponent<Animator>();
         rb=GetComponent<Rigidbody2D>();
+        capcol = GetComponent<CapsuleCollider2D>();
     }
 
     void FixedUpdate()
@@ -71,6 +77,26 @@ public class player : MonoBehaviour
         float verticalKey = Input.GetAxis("Vertical");
         float ySpeed = -gravity;
 
+        //何かを踏んだときのジャンプ
+        if (isOtherJump)
+        {
+            //現在の高さが飛べる高さより下か
+            bool canHeight = jumpPos + otherJumpHeight > transform.position.y;
+            //ジャンプ時間が長くなりすぎていないか
+            bool canTime = jumpLimitTime > jumpTime;
+
+            if (canHeight && canTime && !isHead)
+            {
+                ySpeed = jumpSpeed;
+                jumpTime += Time.deltaTime;
+            }
+            else
+            {
+                isOtherJump = false;
+                jumpTime=0.0f;
+            }
+
+        }
         if (isGround)
         {
             if (verticalKey > 0)
@@ -167,7 +193,7 @@ public class player : MonoBehaviour
     /// </summary>
     private void SetAnimation()
     {
-        anim.SetBool("jump", isJump);
+        anim.SetBool("jump", isJump || isOtherJump);
         anim.SetBool("ground", isGround);
         anim.SetBool("walk", isWalk);
     }
@@ -177,11 +203,49 @@ public class player : MonoBehaviour
     {
         if (collision.collider.tag == enemyTag)
         {
-            anim.Play("player_down");
-            isDown = true;
+            //踏みつけ判定になる高さ
+            float stepOnHeight = (capcol.size.y * (stepOnRate / 100f));
+            //踏みつけ判定のワールド座標
+            float judgePos = transform.position.y + stepOnHeight;
+
+            foreach(ContactPoint2D p in collision.contacts)
+            {
+                if (p.point.y < judgePos)
+                {
+                    ObjectCollision o = collision.gameObject.GetComponent<ObjectCollision>();
+                    if (o != null)
+                    {
+                        otherJumpHeight = o.boundHeight;
+                        //踏んだ相手から跳ねる高さを取得する
+
+                        o.playerStepOn = true;
+                        //踏んだ相手に対して踏んだ事を通知する
+
+                        jumpPos = transform.position.y;
+                        //ジャンプした位置を記録する
+
+                        isOtherJump = true;
+                        isJump = false;
+                        jumpTime = 0.0f;
+                    }
+                    else
+                    {
+                        Debug.Log("ObjectCollisionがついてない！");
+                    }
+                }
+                else
+                {
+                    anim.Play("player_down");
+                    isDown = true;
+                    break;
+                }
+            }
+            
         }
     }
     #endregion
+
+    
 
 }
 
