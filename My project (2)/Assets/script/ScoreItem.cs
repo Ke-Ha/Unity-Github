@@ -16,6 +16,6 @@ public class ScoreItem : MonoBehaviour
                 GManager.instance.score += myScore;
                 Destroy(this.gameObject);
             }
-        }        
+        }
     }
 }

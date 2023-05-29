@@ -359,11 +359,14 @@
 "Assets/script/FadeImage.cs"
 "Assets/script/GManager.cs"
 "Assets/script/GroundCheck.cs"
+"Assets/script/Heart.cs"
 "Assets/script/ObjectCollision.cs"
 "Assets/script/player.cs"
 "Assets/script/PlayerTriggerCheck.cs"
 "Assets/script/Score.cs"
 "Assets/script/ScoreItem.cs"
+"Assets/script/StageCtrl.cs"
+"Assets/script/StageNum.cs"
 "Assets/script/Title.cs"
 -langversion:9.0
 

@@ -10,7 +10,7 @@ public class PlayerTriggerCheck : MonoBehaviour
     #region//ê⁄êGîªíË
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == playerTag)
+        if (collision.CompareTag(playerTag))
         {
             isOn = true;
         }
@@ -18,7 +18,7 @@ public class PlayerTriggerCheck : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == playerTag)
+        if (collision.CompareTag(playerTag))
         {
             isOn = false;
         }
