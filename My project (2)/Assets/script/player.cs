@@ -25,6 +25,7 @@ public class player : MonoBehaviour
     private Animator anim = null;
     private CapsuleCollider2D capcol = null;
     private SpriteRenderer sr = null;
+    private MoveObject moveObj = null;
 
     private bool isGround = false;
     private bool isHead = false;
@@ -38,6 +39,7 @@ public class player : MonoBehaviour
     private string enemyTag = "Enemy";
     private string deadAreaTag = "DeadArea";
     private string hitAreaTag = "HitArea";
+    private string moveFloorTag="MoveFloor";
 
     private float jumpPos = 0.0f;
     private float otherJumpHeight = 0.0f;
@@ -45,6 +47,7 @@ public class player : MonoBehaviour
     private float beforeKey;
     private float continueTime = 0.0f;
     private float blinkTime = 0.0f;
+
  
     #endregion
 
@@ -60,16 +63,21 @@ public class player : MonoBehaviour
     {
         if (!isDown && !GManager.instance.isGameOver)
         {
-
+            //接地判定を得る
             isGround = ground.IsGround();
             isHead = head.IsGround();
-
+            //各種座標軸の速度を求める
             float xSpeed = GetXSpeed();
             float ySpeed = GetYSpeed();
-
+            //アニメーションを適用
             SetAnimation();
-
-            rb.velocity = new Vector2(xSpeed, ySpeed);
+            //移動速度を設定
+            Vector2 addVelocity = Vector2.zero;
+            if (moveObj != null)
+            {
+                addVelocity = moveObj.GetVelocity();
+            }
+            rb.velocity = new Vector2(xSpeed, ySpeed)+addVelocity;
         }
         else
         {
@@ -249,6 +257,31 @@ public class player : MonoBehaviour
                 }
             }
             
+        }
+        else if (collision.collider.tag == moveFloorTag)
+        {
+            //踏みつけ判定になる高さ
+            float stepOnHeight = (capcol.size.y * (stepOnRate / 100f));
+            //踏みつけ判定のワールド座標
+            float judgePos = transform.position.y + stepOnHeight;
+            foreach(ContactPoint2D p in collision.contacts)
+            {
+                //動く床に乗っている
+                if (p.point.y < judgePos)
+                {
+                    moveObj = collision.gameObject.GetComponent<MoveObject>();
+
+                }
+            }
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.tag == moveFloorTag)
+        {
+            //動く床から離れた
+            moveObj = null;
         }
     }
     #endregion
