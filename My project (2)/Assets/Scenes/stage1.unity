@@ -824,9 +824,11 @@ GameObject:
   - component: {fileID: 410718166}
   - component: {fileID: 410718165}
   - component: {fileID: 410718164}
+  - component: {fileID: 410718168}
+  - component: {fileID: 410718169}
   m_Layer: 0
   m_Name: FallFloor
-  m_TagString: Untagged
+  m_TagString: FallFloor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,6 +915,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &410718168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410718163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548c957b785234f47a249170fb8df06d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteObj: {fileID: 634187427}
+  vibrationWidth: 0.05
+  vibrationSpeed: 30
+  fallTime: 1
+  fallSpeed: 10
+  returnTime: 5
+--- !u!114 &410718169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410718163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5321ec890e95f6846b729b11843d68e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundHeight: 0
+  playerStepOn: 0
 --- !u!1 &446143915
 GameObject:
   m_ObjectHideFlags: 0
