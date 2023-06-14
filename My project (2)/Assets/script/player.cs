@@ -40,6 +40,7 @@ public class player : MonoBehaviour
     private string deadAreaTag = "DeadArea";
     private string hitAreaTag = "HitArea";
     private string moveFloorTag="MoveFloor";
+    private string fallFloorTag = "FallFloor";
 
     private float jumpPos = 0.0f;
     private float otherJumpHeight = 0.0f;
@@ -218,7 +219,13 @@ public class player : MonoBehaviour
     #region//ê⁄êGîªíË
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag == enemyTag)
+
+        bool enemy = (collision.collider.tag == enemyTag);
+        bool moveFloor = (collision.collider.tag == moveFloorTag);
+        bool fallFloor = (collision.collider.tag == fallFloorTag);
+
+
+        if (enemy || moveFloor || fallFloor)
         {
             //ì•Ç›Ç¬ÇØîªíËÇ…Ç»ÇÈçÇÇ≥
             float stepOnHeight = (capcol.size.y * (stepOnRate / 100f));
